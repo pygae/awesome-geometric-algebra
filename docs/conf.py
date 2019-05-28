@@ -18,6 +18,24 @@
 
 import sphinx_rtd_theme
 
+from pybtex.style.formatting.unsrt import Style
+from formatting.apa import APAStyle
+from labels.apa import LabelStyle as APALabelStyle
+from pybtex.plugin import register_plugin
+from pybtex.style.template import names, sentence
+
+class MyAPALabelStyle(APALabelStyle):
+    def format_label(self, entry):
+        return APALabelStyle.format_label(self, entry)
+        # return entry.fields['title'] + ' by ' + APALabelStyle.format_label(self, entry)
+
+# class MyAPAStyle(APAStyle):
+class MyAPAStyle(Style):
+    default_label_style = 'myapa'
+
+register_plugin('pybtex.style.labels', 'myapa', MyAPALabelStyle)
+register_plugin('pybtex.style.formatting', 'myapastyle', MyAPAStyle)
+
 # -- Project information -----------------------------------------------------
 
 project = 'Awesome Geometric Algebra'
@@ -42,7 +60,8 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'sphinx_markdown_tables',
-    'm2r'
+    'm2r',
+    'sphinxcontrib.bibtex'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

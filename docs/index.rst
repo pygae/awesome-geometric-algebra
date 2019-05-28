@@ -5,6 +5,29 @@
 
 .. mdinclude:: ../README.md
 
+.. Test cite: :cite:`doran2003geometric`
+
+Books
+============
+
+.. bibliography:: ../books.bib
+   :style: myapastyle
+   :all:
+
+Papers
+============
+
+.. bibliography:: ../papers.bib
+   :style: myapastyle
+   :all:
+
+Videos
+============
+
+.. bibliography:: ../videos.bib
+   :style: myapastyle
+   :all:
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
