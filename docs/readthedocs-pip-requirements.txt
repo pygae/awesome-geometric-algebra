@@ -1,0 +1,4 @@
+sphinx>=1.4
+sphinx_rtd_theme
+sphinx-markdown-tables
+m2r
