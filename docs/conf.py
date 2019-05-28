@@ -76,6 +76,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # You can specify multiple suffix as a list of string:
 source_suffix = ['.rst', '.md']
 
+# The master toctree document.
+master_doc = 'index'
 
 # -- Options for HTML output -------------------------------------------------
 
