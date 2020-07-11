@@ -1,11 +1,6 @@
-.. Awesome Geometric Algebra documentation master file, created by
-   sphinx-quickstart on Tue May 28 15:37:39 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. Awesome Geometric Algebra
 
 .. mdinclude:: ../README.md
-
-.. Test cite: :cite:`doran2003geometric`
 
 Books
 ============
@@ -21,6 +16,13 @@ Papers
    :style: myapastyle
    :all:
 
+Notes
+============
+
+.. bibliography:: ../notes.bib
+   :style: myapastyle
+   :all:
+
 Videos
 ============
 
@@ -31,6 +33,13 @@ Videos
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+Physics Papers
+================
+
+.. bibliography:: ../physics_papers.bib
+   :style: myapastyle
+   :all:
 
 Indices and tables
 ==================

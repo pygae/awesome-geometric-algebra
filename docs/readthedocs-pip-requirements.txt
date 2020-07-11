@@ -1,4 +1,4 @@
-sphinx>=2.0
+sphinx>=3.0
 sphinx_rtd_theme
 sphinx-markdown-tables
 m2r
