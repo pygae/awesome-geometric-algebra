@@ -1,8 +1,8 @@
-# Awesome Geometric Algebra
+# Awesome Geometric Algebra/Calculus
 
 ## The Vision
 
-This is not going to be just another curated list of Geometric Algebra resources inspired by [awesome](https://github.com/sindresorhus/awesome) lists, and it will not be just maintaining one `README.md`.
+This is not going to be just another curated list of Geometric Algebra/Calculus resources inspired by [awesome](https://github.com/sindresorhus/awesome) lists, and it will not be just maintaining one `README.md`.
 
 The preliminary result of this work is rendered at https://awesome-geometric-algebra.rtfd.io . There's almost nothing yet.
 
